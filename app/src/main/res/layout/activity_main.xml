@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:circleprogress="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+
+    <com.bawei.customprogressbar.custom.CircleProgressView
+        android:id="@+id/circle_view3"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        circleprogress:circleprogress_backgroundcolor="#dddddd"
+        circleprogress:circleprogress_fontcolor="#00ffff"
+        circleprogress:circleprogress_foregroundcolor="#ffffff"
+        circleprogress:circleprogress_maxprogress="100"
+        circleprogress:circleprogress_progresscolor="#00ffff"
+        circleprogress:circleprogress_textsize="50"
+        circleprogress:circleprogress_width="20"
+        circleprogress:layout_constraintTop_toTopOf="parent"
+        circleprogress:layout_constraintBottom_toBottomOf="parent"
+        circleprogress:layout_constraintLeft_toLeftOf="parent"
+        circleprogress:layout_constraintRight_toRightOf="parent"
+        />
+</android.support.constraint.ConstraintLayout>
